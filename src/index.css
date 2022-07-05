@@ -7,7 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* добавим отступы у нава */
+nav {
+  padding: 0 1rem;
 }
+/* прижимаем футер к низу путем вычета из минимальной высоты маина суммы шапки и футера  100% - (64 + 70)*/
+.content {
+  min-height: calc(100vh - 134px);
+}
+
+/* .goods {
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  
+  gap: 1rem;
+} */
+
+
+/* .search-btn {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+} */
+/* добавим радиокнопкам отступы справа всем лебл кроме последнего*/
+/* label:not(:last-child) {
+  margin-right: 3rem;
+} */ 
