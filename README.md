@@ -41,3 +41,9 @@ npm i react-router-dom@5.2.0
 <Route exact path='/'>
     <Home cb={cb}/>
 <Roure>
+
+# API (themealdb)
+https://www.themealdb.com/api.php
+# настройка методов (функций получени разного рода инфо из API с использованием Async/await)
+
+
