@@ -22,7 +22,8 @@ function CategoryItem(props) {
                 </p>
             </div>
             <div className="card-action">
-                <Link to={`/category/${idCategory}`} className='btn'>Watch caregory</Link>
+                {/* ссылка на категорию по именя */}
+                <Link to={`/category/${strCategory}`} className='btn'>Watch caregory</Link>
             </div>
         </div>
     );
