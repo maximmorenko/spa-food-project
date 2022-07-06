@@ -16,13 +16,24 @@ nav {
   min-height: calc(100vh - 134px);
 }
 
-/* .goods {
+.list {
   display: grid;
-  
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  
-  gap: 1rem;
-} */
+  gap: 2rem;
+}
+
+/* зададим направление елементам карточки */
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* зададим одному елементу карточки контеннту (назв. + описание) рост по необходимости (flex-grow) - 1 */
+.card-content {
+  flex-grow: 1;
+}
+
+
 
 
 /* .search-btn {

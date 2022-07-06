@@ -46,4 +46,6 @@ npm i react-router-dom@5.2.0
 https://www.themealdb.com/api.php
 # настройка методов (функций получени разного рода инфо из API с использованием Async/await)
 
+# Главная страница с категориями блюд
+
 
