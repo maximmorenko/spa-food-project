@@ -20,7 +20,7 @@ function Recipe(props) {
 
     return (
         <>
-            <button className='btn' onClick={goBack} >Go Back</button>
+            <button className='btn' style={{margin: '1rem 0 1rem'}} onClick={goBack} >Go Back</button>
             {/* проверяем есть ли что то в ресипи (id), ели нет то рисуем перлоадер. 
         если есть то рисуем разметку*/}
         {!recipe.idMeal ? <Preloader /> : (

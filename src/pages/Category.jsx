@@ -25,7 +25,7 @@ function Category() {
 
     return (
         <>
-        <button className='btn' onClick={goBack} >Go Back</button>
+        <button className='btn' style={{margin: '1rem 0 1rem'}} onClick={goBack} >Go Back</button>
         {/* при клике запустим метод goBack который вернет на предыдущую страницу */}
         {/* проверяем есть ли что то в милс, ели нет то рисуем перлоадер. 
         если есть то рисуем компонент милсЛист и передаем ему текущий массив с едой милс*/}

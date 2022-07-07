@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header(props) {
     return (
         // меняем цвет наву, добавляем классНейм наву с названием цвета из палитры в библиотеке https://materializecss.com/color.html
-        <nav className='green darken-2'>
+        <nav className=' teal darken-2'>
             <div className='nav-wrapper'>
                 <Link to='/' className='brand-logo'>
                     React SPA
