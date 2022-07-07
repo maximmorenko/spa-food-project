@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// для кнопки назад используем хук юзХистори
 
 function CategoryItem(props) {
 
@@ -7,8 +8,9 @@ function CategoryItem(props) {
         idCategory, 
         strCategory, 
         strCategoryDescription, 
-        strCategoryThumb
+        strCategoryThumb,
     } = props;
+
     return (
         <div className="card" id={idCategory}>
             <div className="card-image">

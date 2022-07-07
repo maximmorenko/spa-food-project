@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 import Category from './pages/Category';
+import Recipe from './pages/Recipe';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
@@ -34,6 +35,7 @@ function App() {
               чтобы роутер не пробегал по всем роутам используем свитч (это своего рода опртимизация), 
               оборачиваем в свитч все роуты*/}
               <Route path='/category/:name' component={Category}/>
+              <Route path='/meal/:id' component={Recipe}/>
               <Route component={NotFound}/> 
               {/* если по какому-то пути не бедет найден нужная страница, то свитч переключит на компонент NotFound */}
             </Switch>

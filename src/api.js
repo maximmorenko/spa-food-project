@@ -27,4 +27,3 @@ const getFilteredCategory = async (catName) => {
     return await response.json();
 };
 export {getFilteredCategory};
-
