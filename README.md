@@ -72,4 +72,6 @@ https://www.themealdb.com/api.php
 7. запускаем диплой npm run deploy
 # ссылка на проект https://maximmorenko.github.io/spa-routing-project/
 
+# Сертификат https://www.udemy.com/certificate/UC-76e27f78-5f2a-48fe-8b32-c80bca3f9d89/
+
 
