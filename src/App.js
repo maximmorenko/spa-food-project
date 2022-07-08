@@ -18,7 +18,7 @@ function App() {
   return (
     // используем реакт фрагмент <></>
     <>
-      <Router>
+      <Router baseName='/spa-routing-project'>
         <Header />
         <main className='container content'>
           {/* все наши страници должны быть обернуты в  Router*/}
