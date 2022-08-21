@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/spa-routing-project/static/css/main.ca8f8034.css",
-    "main.js": "/spa-routing-project/static/js/main.a544f53f.js",
-    "index.html": "/spa-routing-project/index.html",
-    "main.ca8f8034.css.map": "/spa-routing-project/static/css/main.ca8f8034.css.map",
-    "main.a544f53f.js.map": "/spa-routing-project/static/js/main.a544f53f.js.map"
+    "main.css": "/spa-food-project/static/css/main.ca8f8034.css",
+    "main.js": "/spa-food-project/static/js/main.515b9f7d.js",
+    "index.html": "/spa-food-project/index.html",
+    "main.ca8f8034.css.map": "/spa-food-project/static/css/main.ca8f8034.css.map",
+    "main.515b9f7d.js.map": "/spa-food-project/static/js/main.515b9f7d.js.map"
   },
   "entrypoints": [
     "static/css/main.ca8f8034.css",
-    "static/js/main.a544f53f.js"
+    "static/js/main.515b9f7d.js"
   ]
 }
