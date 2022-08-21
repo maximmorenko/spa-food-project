@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header(props) {
     return (
         // меняем цвет наву, добавляем классНейм наву с названием цвета из палитры в библиотеке https://materializecss.com/color.html
-        <nav className=' teal darken-2'>
+        <nav className='teal darken-2'>
             <div className='nav-wrapper'>
                 <Link to='/' className='brand-logo'>
                     React SPA
@@ -18,7 +18,7 @@ function Header(props) {
                         <Link to='/contact'>Contact</Link>
                     </li>
                     <li>
-                        <a href='https://github.com/maximmorenko/spa-routing-project'>Repo</a>
+                        <a href='https://github.com/maximmorenko/spa-food-project'>Repo</a>
                     </li>
                 </ul>
             </div>

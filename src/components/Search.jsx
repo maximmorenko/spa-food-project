@@ -6,6 +6,7 @@ function Search(props) {
     const {cb = Function.prototype} = props;
     // создадим состояние значения
     const [value, setValue] = useState('');
+    console.log(value);
 
     // метод обработки клавиши enter
     const handleKey = (e) => {
@@ -18,7 +19,7 @@ function Search(props) {
     
     // метод отправки
     const handleSubmit = () => {
-        // вызываем полученый из пропса колбек и передаем ем текущий стейт (value)
+        // вызываем полученый из пропса колбек и передаем ему текущий стейт (value)
         cb(value)
     };
 

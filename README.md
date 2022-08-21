@@ -1,4 +1,12 @@
-# Небольшой сервис с едой. Реализован поиском по категориям и переключением между страницами с использованием (SPA)
+## [spa-food-project DEMO](https://maximmorenko.github.io/spa-food-project)
+
+## Небольшой сервис с едой. Реализован поиск по категориям и переключением между страницами с использованием (SPA).
+
+## [API](https://www.themealdb.com/api.php)
+
+## [Сертификат](https://www.udemy.com/certificate/UC-76e27f78-5f2a-48fe-8b32-c80bca3f9d89/)
+
+![](https://github.com/maximmorenko/spa-food-project/blob/master/assets/screen.jpg)
 
 # Установка реакт приложения
 npx create-react-app . (установит в текущую папку)
@@ -60,18 +68,18 @@ https://www.themealdb.com/api.php
 
 # публикация проекта
 1. добавлеем поле в корневой объект файла package.json 
-"homepage": "https://maximmorenko.github.io/spa-routing-project";
+"homepage": "https://maximmorenko.github.io/spa-food-project";
 2. добавлеем поле 'script' корневого объекта в файле package.json
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
 3. Для того чтобы роутинг работал мы должны у компонента Router добавить атрибут baseName=''
- и указать ему значение (путь нашей главной страницы) /spa-routing-project
+ и указать ему значение (путь нашей главной страницы) /spa-food-project
 4. переносим ключ с енв локал на гитхаб в секреты (настройки проекта => новый секрет)
 5. устанавливаем npm install gh-pages -D (-D это то же самое что и --save-dev)
 6. сохраняем изменения git add -A
 7. запускаем диплой npm run deploy
-# ссылка на проект https://maximmorenko.github.io/spa-routing-project/
+# ссылка на проект https://maximmorenko.github.io/spa-food-project/
 
-# Сертификат https://www.udemy.com/certificate/UC-76e27f78-5f2a-48fe-8b32-c80bca3f9d89/
+
 
 
